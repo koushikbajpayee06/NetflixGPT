@@ -2,9 +2,11 @@
 - Create React App
 - Configured TailwindCSS# NetflixGPT
 - Header
+- Routing of App
 - Login Form
 - Sign Up Form
-
+- Form Validation 
+- useRef Hool
 # Features
 -Login / Sign Up
     - Sign In / Sign uP fORM
