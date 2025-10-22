@@ -16,12 +16,13 @@ const toggleSignInForm =()=>{
 }
 
 const handleButtonClick = ()=>{
+  const nameValue = !isSignInForm ? name.current.value : null;
   // Validate the form data
-  console.log(name.current.value)
+  // console.log(name.current.value)
   console.log(email.current.value)
   console.log(password.current.value)
   
-  const message =  checkValidData(name.current.value,email.current.value,password.current.value);
+  const message =  checkValidData(nameValue,email.current.value,password.current.value);
   // console.log(message);
   setErrorMessage(message);
 
