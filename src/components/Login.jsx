@@ -22,7 +22,7 @@ const handleButtonClick = ()=>{
   console.log(email.current.value)
   console.log(password.current.value)
   
-  const message =  checkValidData(nameValue,email.current.value,password.current.value);
+  const message =  checkValidData(name.current.value,email.current.value,password.current.value);
   // console.log(message);
   setErrorMessage(message);
 
@@ -31,8 +31,9 @@ const handleButtonClick = ()=>{
   return (
     <div>
       <Header/>
-      <div className='absolute'>
+      <div className='absolute w-full h-full'>
         <img 
+        className="w-full h-full object-cover"
           src="https://assets.nflxext.com/ffe/siteui/vlv3/024bfb98-9e9d-441d-9c5f-d2c798d8e42f/web/IN-en-20251013-TRIFECTA-perspective_b6324826-0535-47c5-be5f-4f50e9663eaf_large.jpg">
         </img>
       </div>

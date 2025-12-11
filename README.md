@@ -1,4 +1,5 @@
 # Netflix GPT
+
 - Create React App
 - Configured TailwindCSS# NetflixGPT
 - Header
@@ -6,18 +7,18 @@
 - Login Form
 - Sign Up Form
 - Form Validation 
-- useRef Hool
+- useRef Hook
 # Features
 -Login / Sign Up
-    - Sign In / Sign uP fORM
-    - Redirect to Browsw Page
+    - Sign In / Sign Up form
+    - Redirect to Browse Page
 - Browse(after authintication)
     -Header
     -Main Movie
         - Trailer in the Background
-        - Title & Description
+        - Title & Description 
         - Movie Suggestions
             - MovieLists * N
 - NetflixGpt
-    -Search Bar 
+    - Search Bar 
     - Movie Suggestions
